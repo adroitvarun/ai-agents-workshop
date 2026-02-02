@@ -1,0 +1,12 @@
+[project]
+name = "ai-agents-workshop"
+version = "0.1.0"
+description = "A hands-on workshop on building AI agents using the Agno framework"
+readme = "README.md"
+requires-python = ">=3.10"
+dependencies = [
+    "agno>=1.0.0",
+    "openai>=1.0.0",
+    "duckduckgo-search>=4.0.0",
+    "python-dotenv>=1.0.0",
+]
