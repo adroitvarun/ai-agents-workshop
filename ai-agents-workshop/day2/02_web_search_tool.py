@@ -16,7 +16,7 @@ agent = Agent(
     model=OpenAIChat(id="gpt-4o-mini"),
     tools=[DuckDuckGoTools()],
     instructions="Search the web for current information. Cite your sources.",
-    show_tool_calls=True
+    debug_mode=True
 )
 
 # The same question from Day 1 - but now with web search!

@@ -18,10 +18,10 @@ agent = Agent(
     tools=[CalculatorTools(), DuckDuckGoTools()],
     instructions="""You are a helpful assistant with access to:
     - A calculator for math operations
-    - Web search for current information
+    - Always do Web search for any query
 
     Use the appropriate tool for each task.""",
-    show_tool_calls=True
+    debug_mode=True
 )
 
 # Test different types of questions
